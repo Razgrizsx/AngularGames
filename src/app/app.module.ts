@@ -9,17 +9,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSidenavModule } from "@angular/material/sidenav";
 import {MatIconModule} from '@angular/material/icon';
-import { TestComponent } from './pages/test/test.component';
+
 import { SquareComponent } from './components/square/square.component';
-import { ServiceWorkerModule } from '@angular/service-worker'; 
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { HangmanComponent } from './pages/hangman/hangman.component';
+import { BottlesComponent } from './pages/bottles/bottles.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     TatetiComponent,
     MainComponent,
-    TestComponent,
-    SquareComponent
+    SquareComponent,
+    HangmanComponent,
+    BottlesComponent
   ],
   imports: [
     BrowserModule,

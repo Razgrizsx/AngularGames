@@ -1,14 +1,16 @@
-<div class="flex flex-row bg-zinc-800">
-<mat-drawer-container class="example-container" autosize>
-  <mat-drawer #drawer class="example-sidenav" mode="side">
+<div class="flex flex-row bg-zinc-800 h-screen w-screen">
+<mat-drawer-container class="example-container bg-zinc-800 h-screen " autosize>
+  <mat-drawer #drawer class="example-sidenav bg-zinc-800 h-screen" mode="side">
     <div class="flex flex-col text-white items-center">
     <a routerLink="tateti">Ta-Te-Ti</a>
     <hr>
-    <a routerLink="test">Test</a>
+    <a routerLink="ahorcado">Ahorcado</a>
+    <hr>
+    <a routerLink="botellas">Botellas</a>
     </div>
   </mat-drawer>
 
-  <div class="example-sidenav-content">
+  <div class="example-sidenav-content bg-zinc-800 w-full h-full">
     <button type="button" mat-button (click)="drawer.toggle()">
       <mat-icon class="text-white">view_headline</mat-icon>
     </button>
